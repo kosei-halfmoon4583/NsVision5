@@ -46,9 +46,9 @@
 		1C574B4FA7B97E5B53E42E15 /* Pods-VisionExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionExample.release.xcconfig"; path = "Target Support Files/Pods-VisionExample/Pods-VisionExample.release.xcconfig"; sourceTree = "<group>"; };
 		3C393D9A2E88F9DE00F4C3E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3C5D03302E9BBAF300CF6F34 /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
-		3CBB6CF02EA26BB600CCA666 /* iPhone_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_image.png; sourceTree = "<group>"; };
-		3CBB6CF22EA26BD300CCA666 /* ohtani3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ohtani3.jpg; sourceTree = "<group>"; };
-		3CBB6CF42EA26C4900CCA666 /* liberty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = liberty.jpg; sourceTree = "<group>"; };
+		3CBB6CF02EA26BB600CCA666 /* iPhone_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhone_image.png; path = Resources/iPhone_image.png; sourceTree = "<group>"; };
+		3CBB6CF22EA26BD300CCA666 /* ohtani3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ohtani3.jpg; path = Resources/ohtani3.jpg; sourceTree = "<group>"; };
+		3CBB6CF42EA26C4900CCA666 /* liberty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = liberty.jpg; path = Resources/liberty.jpg; sourceTree = "<group>"; };
 		3CD687EE2E93DE61003E0DDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7202DC6420D0C1A300034C35 /* qr_code.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = qr_code.jpg; path = Resources/qr_code.jpg; sourceTree = "<group>"; };
 		7202DC6520D0C1A300034C35 /* image_has_text.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image_has_text.jpg; path = Resources/image_has_text.jpg; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		A4F89298243BB4BF00B58767 /* bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bird.jpg; path = Resources/bird.jpg; sourceTree = "<group>"; };
 		A5A9E9C52564483B833059E5 /* Pods-VisionExampleObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionExampleObjC.release.xcconfig"; path = "Target Support Files/Pods-VisionExampleObjC/Pods-VisionExampleObjC.release.xcconfig"; sourceTree = "<group>"; };
 		BACA8FEF29EFB4636DC211F2 /* Pods_VisionExampleObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisionExampleObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB287B3520729CE90069707A /* AIBVision5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIBVision5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB287B3520729CE90069707A /* NsVision5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NsVision5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB287B3820729CE90069707A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB287B3D20729CE90069707A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB287B4420729CE90069707A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 			children = (
 				1001E6FC20CF0C8F00445CB3 /* Assets.xcassets */,
 				10224B642087E52600A77316 /* Resources */,
-				BB287B3720729CE90069707A /* VisionExample */,
+				BB287B3720729CE90069707A /* NsVision5 */,
 				BB287B3620729CE90069707A /* Products */,
 				ECA4FED1F5B124F509B01005 /* Pods */,
 				54C039BC5096374387CF35FA /* Frameworks */,
@@ -120,12 +120,12 @@
 		BB287B3620729CE90069707A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB287B3520729CE90069707A /* AIBVision5.app */,
+				BB287B3520729CE90069707A /* NsVision5.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB287B3720729CE90069707A /* VisionExample */ = {
+		BB287B3720729CE90069707A /* NsVision5 */ = {
 			isa = PBXGroup;
 			children = (
 				3C5D03302E9BBAF300CF6F34 /* CustomAlertViewController.swift */,
@@ -139,7 +139,7 @@
 				BB287B4420729CE90069707A /* Info.plist */,
 				3C393D9A2E88F9DE00F4C3E0 /* GoogleService-Info.plist */,
 			);
-			path = VisionExample;
+			path = NsVision5;
 			sourceTree = "<group>";
 		};
 		BB287B4A2072A0200069707A /* Supporting Files */ = {
@@ -164,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB287B3420729CE90069707A /* AIBVision5 */ = {
+		BB287B3420729CE90069707A /* NsVision5 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB287B4720729CE90069707A /* Build configuration list for PBXNativeTarget "AIBVision5" */;
+			buildConfigurationList = BB287B4720729CE90069707A /* Build configuration list for PBXNativeTarget "NsVision5" */;
 			buildPhases = (
 				24C4EF02B993981704204680 /* [CP] Check Pods Manifest.lock */,
 				BB287B3120729CE90069707A /* Sources */,
@@ -179,9 +179,9 @@
 			);
 			dependencies = (
 			);
-			name = AIBVision5;
+			name = NsVision5;
 			productName = "ml-kit-sampler";
-			productReference = BB287B3520729CE90069707A /* AIBVision5.app */;
+			productReference = BB287B3520729CE90069707A /* NsVision5.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -202,7 +202,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BB287B3020729CE90069707A /* Build configuration list for PBXProject "AIBVision5" */;
+			buildConfigurationList = BB287B3020729CE90069707A /* Build configuration list for PBXProject "NsVision5" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,7 +215,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB287B3420729CE90069707A /* AIBVision5 */,
+				BB287B3420729CE90069707A /* NsVision5 */,
 			);
 		};
 /* End PBXProject section */
@@ -504,7 +504,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_BITCODE = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "$(SRCROOT)/VisionExample/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/NsVision5/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "AIBVision𝐕";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -624,7 +624,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_BITCODE = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "$(SRCROOT)/VisionExample/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/NsVision5/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "AIBVision𝐕";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -738,7 +738,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB287B3020729CE90069707A /* Build configuration list for PBXProject "AIBVision5" */ = {
+		BB287B3020729CE90069707A /* Build configuration list for PBXProject "NsVision5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB287B4520729CE90069707A /* Debug */,
@@ -747,7 +747,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB287B4720729CE90069707A /* Build configuration list for PBXNativeTarget "AIBVision5" */ = {
+		BB287B4720729CE90069707A /* Build configuration list for PBXNativeTarget "NsVision5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB287B4820729CE90069707A /* Debug */,
