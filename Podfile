@@ -1,7 +1,7 @@
 platform :ios, '15.5'
 use_frameworks!
 
-project 'AIBVision3.xcodeproj'
+project 'NsVision5.xcodeproj'
 
 pod 'GoogleMLKit/BarcodeScanning', '9.0.0'
 pod 'GoogleMLKit/FaceDetection', '9.0.0'
@@ -18,11 +18,8 @@ pod 'GoogleMLKit/TextRecognitionDevanagari', '9.0.0'
 pod 'GoogleMLKit/TextRecognitionJapanese', '9.0.0'
 pod 'GoogleMLKit/TextRecognitionKorean', '9.0.0'
 
-target 'AIBVision3' do
+target 'NsVision5' do
 end
-
-# target 'VisionExampleObjC' do
-# end
 
 post_install do |installer|
   installer.aggregate_targets.each do |target|
